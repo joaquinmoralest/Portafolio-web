@@ -1,5 +1,5 @@
 import { Link } from "@mui/material";
-import './Navbar.css'
+import './Navbar.css';
 
 function Navbar() {
     return(

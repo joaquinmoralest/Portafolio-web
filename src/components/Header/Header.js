@@ -4,7 +4,7 @@ import './Header.css';
 
 function Header() {
     return(
-        <Container className="container" maxWidth="xl">
+        <Container className="container" maxWidth="xxl">
             <Navbar />
         </Container>
     )

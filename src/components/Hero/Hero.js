@@ -4,7 +4,7 @@ import './Hero.css';
 
 function Hero() {
     return(
-        <Container className='hero-container' maxWidth="xl">
+        <Container disableGutters className='hero-container' maxWidth="xxl">
             <img className='hero-img' src={hero} alt='Banner de Joaquin Morales, desarrollador'></img>
         </Container>
     )

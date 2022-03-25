@@ -7,8 +7,11 @@ function Navbar() {
             <Link className="link-menu" href="#" underline="hover">
                 Inicio
             </Link>
-            <Link className="link-menu" href="#" underline="hover">
+            <Link className="link-menu" href="#aboutMe" underline="hover">
                 Sobre mi
+            </Link>
+            <Link className="link-menu" href="#" underline="hover">
+                Skills
             </Link>
             <Link className="link-menu" href="#" underline="hover">
                 Portafolio

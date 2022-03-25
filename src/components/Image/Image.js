@@ -3,7 +3,7 @@ import './Image.css';
 
 function Image(props) {
     return(
-        <Box className='image-box' sx={{width: 250}}>
+        <Box className='image-box' sx={{width: 380}}>
             <img src={props.src} alt={props.alt}></img>
         </Box>
     )

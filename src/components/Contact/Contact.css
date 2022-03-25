@@ -1,0 +1,23 @@
+.contact-menu {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(60, 51, 177, 0.753);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.contact-item {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.contact-item a {
+    color: darkblue;
+}

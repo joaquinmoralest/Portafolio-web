@@ -1,0 +1,17 @@
+.card {
+  width: 200px;
+  height: 240px;
+  border: 1px solid #53736A;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card p {
+  font-size: 12px;
+  padding: 0.5rem;
+  text-align: justify;
+}

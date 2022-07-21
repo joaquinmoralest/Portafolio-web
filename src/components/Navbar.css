@@ -1,0 +1,32 @@
+.navbar {
+  width: 100%;
+  background: #024554;
+  position: relative;
+  top: -4px;
+  height: 45px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  padding: 10px 20px;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+a {
+  text-decoration: none;
+  color: #C2C0A6;  
+}
+
+a:hover {
+  color: #A8B545;
+}

@@ -4,6 +4,7 @@ import profile from './assets/img/DSC_1067.jpg'
 import Navbar from './components/Navbar';
 import Card from './components/Card';
 import Contact from './components/Contact';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
         </div>
       </section>
       <section className='section bg-secondary' id='skills'>
-        <h2>Conocimientos</h2>
+        <h2>Tecnologías</h2>
         <div className="container">
           <div className='column'>
             <div className='row'>
@@ -68,11 +69,15 @@ function App() {
       </section>
       <section className='section bg-secondary' id='contact'>
         <h2>Contacto</h2>
-        <div className='container'>
+        <div className="container">
+          <Form />
+        </div>
+        <div className='container gap-1 flex-direction-column'>
+        <h3>Búscame tambien en...</h3>
           <Contact />
         </div>
       </section>
-      <footer>
+      <footer className='bg-secondary'>
         <p>Joaquín Morales - Todos los derechos reservados</p>
       </footer>
     </div>

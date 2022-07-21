@@ -4,11 +4,20 @@
   border: 1px solid #53736A;
   border-radius: 0.5rem;
   overflow: hidden;
+  background-color: #6A8C69;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .card img {
   width: 100%;
 }
+
+/* .card-body {
+} */
 
 .card p {
   font-size: 12px;

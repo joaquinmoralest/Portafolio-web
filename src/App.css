@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 }
 
 i {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .full-screen {
@@ -94,6 +95,15 @@ i {
 }
 
 footer {
+    font-size: 12px;
     padding: 0.5rem 0;
     text-align: center;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.gap-1 {
+    gap: 2px;
 }

@@ -20,7 +20,7 @@ const Navbar = ({ sticky }) => {
       <ul>
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#aboutMe">Sobre mi</a></li>
-        <li><a href="#skills">Conocimientos</a></li>
+        <li><a href="#skills">Tecnologías</a></li>
         <li><a href="#projects">Proyectos</a></li>
         <li><a href="#contact">Contacto</a></li>
       </ul>

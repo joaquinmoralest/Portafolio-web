@@ -2,8 +2,9 @@
   width: 100%;
   background: #024554;
   position: relative;
-  top: -4px;
+  top: -30px;
   height: 45px;
+  margin-bottom: -65px;
 }
 
 .sticky {

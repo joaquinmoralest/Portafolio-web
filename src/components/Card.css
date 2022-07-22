@@ -1,15 +1,17 @@
 .card {
   width: 200px;
-  height: 240px;
+  height: 300px;
   border: 1px solid #53736A;
   border-radius: 0.5rem;
   overflow: hidden;
   background-color: #6A8C69;
   transition: transform 0.2s;
+  box-shadow: 8px 10px 15px -3px rgba(0,0,0,0.3);
 }
 
 .card:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 .card img {

@@ -1,5 +1,5 @@
 import './App.css';
-import hero from './assets/img/JOAQUIN MORALES TR..png'
+import hero from './assets/img/carbon2.png'
 import profile from './assets/img/DSC_1067.jpg'
 import Navbar from './components/Navbar';
 import Card from './components/Card';
@@ -10,7 +10,9 @@ function App() {
   return (
     <div>
       <section className='full-screen' id='inicio'>
-        <img className='hero' src={hero} alt=""/>
+        <div className='container-hero'>
+          <img className='hero' src={hero} alt=""/>
+        </div>
         <Navbar />
       </section>
       <section className='about-me' id='aboutMe'>
@@ -59,12 +61,36 @@ function App() {
       <section className='section' id='projects'>
         <h2>Proyectos</h2>
         <div className='galery'>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card 
+            url={'https://trusting-heisenberg-37a0f2.netlify.app'}
+            title='Calculadora web'
+            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae. Sunt veniam iste quidem temporibus atque illum'
+          />
+          <Card 
+            url={'https://pedantic-thompson-e0d2b4.netlify.app'}
+            title='Pokedex'
+            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae. Sunt veniam iste quidem temporibus atque illum'
+          />
+          <Card 
+            url={'https://agitated-varahamihira-1eaebe.netlify.app'}
+            title='To-do list'
+            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae. Sunt veniam iste quidem temporibus atque illum'
+          />
+          <Card 
+            url={'https://pensive-mccarthy-795633.netlify.app'}
+            title='Diseño Glass'
+            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae. Sunt veniam iste quidem temporibus atque illum'
+          />
+          <Card 
+            url={'https://github.com/joaquinmoralest/clone-calculadora-ios'}
+            title='Clon calculadora iOS'
+            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae. Sunt veniam iste quidem temporibus atque illum'
+          />
+          <Card 
+            url={'https://github.com/joaquinmoralest/counter-redux'}
+            title='Contador'
+            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae. Sunt veniam iste quidem temporibus atque illum'
+          />
         </div>
       </section>
       <section className='section bg-secondary' id='contact'>

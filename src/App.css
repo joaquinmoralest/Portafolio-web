@@ -29,11 +29,20 @@ i {
     gap: 5rem;
 }
 
-.hero {
+.container-hero {
     width: 100%;
+    text-align: center;
+    background-color: #024554;
+}
+
+.hero {
+    width: 80%;
+    position: relative;
+    top: -40px;
 }
 
 .about-me {
+    width: 100%;
     padding: 5rem;
     display: flex;
     gap: 1rem;
@@ -42,7 +51,7 @@ i {
 }
 
 .profile-card {
-    width: 15rem;
+    width: 18rem;
     border-radius: 1rem;
     box-shadow: 8px 10px 15px -3px rgba(0,0,0,0.3);
     overflow: hidden;
@@ -55,7 +64,11 @@ i {
 }
 
 .description {
+    width: 80%;
     max-width: 20rem;
+}
+
+.description p {
     text-align: justify;
 }
 
@@ -91,7 +104,7 @@ i {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 footer {
